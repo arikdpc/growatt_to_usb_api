@@ -1,0 +1,494 @@
+{
+    "0": {
+        "name": "StatusCode",
+        "unit": "N/A",
+        "explanation": "Inverter Status, Inverter run state",
+        "divider": 1
+    },
+    "1": {
+        "name": "Vpv1",
+        "unit": "0.1V",
+        "explanation": "PV1 voltage",
+        "divider": 10
+    },
+    "2": {
+        "name": "Vpv2",
+        "unit": "0.1V",
+        "explanation": "PV2 voltage",
+        "divider": 10
+    },
+    "3": {
+        "name": "Ppv1H",
+        "unit": "0.1W",
+        "explanation": "PV1 Charge power (high)",
+        "divider": 10
+    },
+    "4": {
+        "name": "Ppv1L",
+        "unit": "0.1W",
+        "explanation": "PV1 Charge power (low)",
+        "divider": 10
+    },
+    "5": {
+        "name": "Ppv2H",
+        "unit": "0.1W",
+        "explanation": "PV2 Charge power (high)",
+        "divider": 10
+    },
+    "6": {
+        "name": "Ppv2L",
+        "unit": "0.1W",
+        "explanation": "PV2 Charge power (low)",
+        "divider": 10
+    },
+    "7": {
+        "name": "Buck1Curr",
+        "unit": "0.1A",
+        "explanation": "Buck1 current",
+        "divider": 10
+    },
+    "8": {
+        "name": "Buck2Curr",
+        "unit": "0.1A",
+        "explanation": "Buck2 current",
+        "divider": 10
+    },
+    "9": {
+        "name": "OP_WattH",
+        "unit": "0.1W",
+        "explanation": "Output active power (high)",
+        "divider": 10
+    },
+    "10": {
+        "name": "OP_WattL",
+        "unit": "0.1W",
+        "explanation": "Output active power (low)",
+        "divider": 10
+    },
+    "11": {
+        "name": "OP_VAH",
+        "unit": "0.1VA",
+        "explanation": "Output apparent power (high)",
+        "divider": 10
+    },
+    "12": {
+        "name": "OP_VAL",
+        "unit": "",
+        "explanation": "",
+        "divider": 10
+    },
+    "13": {
+        "name": "ACChr_WattH",
+        "unit": "0.1W",
+        "explanation": "AC Charge Watts (high)",
+        "divider": 10
+    },
+    "14": {
+        "name": "ACChr_WattL",
+        "unit": "",
+        "explanation": "",
+        "divider": 10
+    },
+    "15": {
+        "name": "ACChr_VAH",
+        "unit": "0.1VA",
+        "explanation": "AC Charge apparent power (high)",
+        "divider": 10
+    },
+    "16": {
+        "name": "ACChr_VAL",
+        "unit": "",
+        "explanation": "",
+        "divider": 10
+    },
+    "17": {
+        "name": "Bat_Volt",
+        "unit": "0.01V",
+        "explanation": "Battery Voltage",
+        "divider": 100
+    },
+    "18": {
+        "name": "BatterySOC",
+        "unit": "1%",
+        "explanation": "Battery State of Charge",
+        "divider": 1
+    },
+    "19": {
+        "name": "BusVolt",
+        "unit": "0.1V",
+        "explanation": "Bus Voltage",
+        "divider": 10
+    },
+    "20": {
+        "name": "GridVolt",
+        "unit": "0.1V",
+        "explanation": "AC input Voltage",
+        "divider": 10
+    },
+    "21": {
+        "name": "LineFreq",
+        "unit": "0.01Hz",
+        "explanation": "AC input Freq",
+        "divider": 100
+    },
+    "22": {
+        "name": "OutputVolt",
+        "unit": "0.1V",
+        "explanation": "AC Output Voltage",
+        "divider": 10
+    },
+    "23": {
+        "name": "OutputFreq",
+        "unit": "0.01Hz",
+        "explanation": "AC Output Freq",
+        "divider": 100
+    },
+    "24": {
+        "name": "OutputDCV",
+        "unit": "0.1V",
+        "explanation": "DC Output Voltage",
+        "divider": 10
+    },
+    "25": {
+        "name": "InvTemp",
+        "unit": "0.1C",
+        "explanation": "Inverter Temp",
+        "divider": 10
+    },
+    "26": {
+        "name": "DCDCTemp",
+        "unit": "0.1C",
+        "explanation": "DCDC Temp",
+        "divider": 10
+    },
+    "27": {
+        "name": "LoadPercent",
+        "unit": "0.1%",
+        "explanation": "Inverter Load Percent",
+        "divider": 10
+    },
+    "28": {
+        "name": "Bat_dspp_V",
+        "unit": "0.01V",
+        "explanation": "Battery-port volt (DSP)",
+        "divider": 100
+    },
+    "29": {
+        "name": "Bat_dspb_V",
+        "unit": "0.01V",
+        "explanation": "Battery-bus voltage (DSP)",
+        "divider": 100
+    },
+    "30": {
+        "name": "TimeTotalH",
+        "unit": "0.5S",
+        "explanation": "Time total H, Work time total (high)",
+        "divider": 2
+    },
+    "31": {
+        "name": "TimeTotalL",
+        "unit": "0.5S",
+        "explanation": "Time total L, Work time total (low)",
+        "divider": 2
+    },
+    "32": {
+        "name": "Buck1Temp",
+        "unit": "0.1C",
+        "explanation": "Temperature, Inverter temperature",
+        "divider": 10
+    },
+    "33": {
+        "name": "Buck2Temp",
+        "unit": "0.1C",
+        "explanation": "Temperature, Inverter temperature",
+        "divider": 10
+    },
+    "34": {
+        "name": "OP_Curr",
+        "unit": "0.1A",
+        "explanation": "Output Current",
+        "divider": 10
+    },
+    "35": {
+        "name": "Inv_Curr",
+        "unit": "0.1A",
+        "explanation": "Inv Current",
+        "divider": 10
+    },
+    "36": {
+        "name": "AC_InWattH",
+        "unit": "0.1W",
+        "explanation": "AC Input watt (high)",
+        "divider": 10
+    },
+    "37": {
+        "name": "AC_InWattL",
+        "unit": "0.1W",
+        "explanation": "AC Input watt (low)",
+        "divider": 10
+    },
+    "38": {
+        "name": "AC_InVAH",
+        "unit": "0.1A",
+        "explanation": "AC Input VA (high)",
+        "divider": 10
+    },
+    "39": {
+        "name": "AC_InVAL",
+        "unit": "0.1A",
+        "explanation": "AC Input VA (low)",
+        "divider": 10
+    },
+    "40": {
+        "name": "Faultbit",
+        "unit": "&*1",
+        "explanation": "",
+        "divider": 1
+    },
+    "41": {
+        "name": "Warnbit",
+        "unit": "&*1",
+        "explanation": "",
+        "divider": 1
+    },
+    "42": {
+        "name": "Faultvalue",
+        "unit": "",
+        "explanation": "fault value",
+        "divider": 1
+    },
+    "43": {
+        "name": "Warnvalue",
+        "unit": "",
+        "explanation": "warn value",
+        "divider": 1
+    },
+    "44": {
+        "name": "DTC",
+        "unit": "",
+        "explanation": "",
+        "divider": 1
+    },
+    "45": {
+        "name": "CheckStep",
+        "unit": "",
+        "explanation": "",
+        "divider": 1
+    },
+    "46": {
+        "name": "ProductionLM",
+        "unit": "",
+        "explanation": "",
+        "divider": 1
+    },
+    "47": {
+        "name": "ConstPOKF",
+        "unit": "",
+        "explanation": "Constant power ok flag (0 no, 1 OK)",
+        "divider": 1
+    },
+    "48": {
+        "name": "Epv1_todayH",
+        "unit": "0.1kWh",
+        "explanation": "Today generate energy (high)",
+        "divider": 10
+    },
+    "49": {
+        "name": "Epv1_todayL",
+        "unit": "0.1kWh",
+        "explanation": "Today generate energy (low)",
+        "divider": 10
+    },
+    "50": {
+        "name": "Epv1_totalH",
+        "unit": "0.1kWh",
+        "explanation": "generate energy total (high)",
+        "divider": 10
+    },
+    "51": {
+        "name": "Epv1_totalL",
+        "unit": "0.1kWh",
+        "explanation": "generate energy total (low)",
+        "divider": 10
+    },
+    "52": {
+        "name": "Epv2_todayH",
+        "unit": "0.1kWh",
+        "explanation": "Today generate energy (high)",
+        "divider": 10
+    },
+    "53": {
+        "name": "Epv2_todayL",
+        "unit": "0.1kWh",
+        "explanation": "Today generate energy (low)",
+        "divider": 10
+    },
+    "54": {
+        "name": "Epv2_totalH",
+        "unit": "0.1kWh",
+        "explanation": "generate energy total (high)",
+        "divider": 10
+    },
+    "55": {
+        "name": "Epv2_totalL",
+        "unit": "0.1kWh",
+        "explanation": "generate energy total (low)",
+        "divider": 10
+    },
+    "56": {
+        "name": "Eac_chrtodayH",
+        "unit": "0.1kWh",
+        "explanation": "AC charge Energy Today (high)",
+        "divider": 10
+    },
+    "57": {
+        "name": "Eac_chrtodayL",
+        "unit": "0.1kWh",
+        "explanation": "AC charge Energy Todat (low)",
+        "divider": 10
+    },
+    "58": {
+        "name": "Eac_chrtotalH",
+        "unit": "0.1kWh",
+        "explanation": "AC charge Energy Total (high)",
+        "divider": 10
+    },
+    "59": {
+        "name": "Eac_chrtotalL",
+        "unit": "0.1kWh",
+        "explanation": "AC charge Energy Total (low)",
+        "divider": 10
+    },
+    "60": {
+        "name": "Ebat_chrtodayH",
+        "unit": "0.1kWh",
+        "explanation": "Bat discharge Energy Today (high)",
+        "divider": 10
+    },
+    "61": {
+        "name": "Ebat_chrtodayL",
+        "unit": "0.1kWh",
+        "explanation": "Bat discharge Energy Todat (low)",
+        "divider": 10
+    },
+    "62": {
+        "name": "Ebat_chrtotalH",
+        "unit": "0.1kWh",
+        "explanation": "Bat discharge Energy Total (high)",
+        "divider": 10
+    },
+    "63": {
+        "name": "Ebat_chrtotalL",
+        "unit": "0.1kWh",
+        "explanation": "Bat discharge Energy Total (low)",
+        "divider": 10
+    },
+    "64": {
+        "name": "Eac_dischrtodayH",
+        "unit": "0.1kWh",
+        "explanation": "AC discharge Energy Today (high)",
+        "divider": 10
+    },
+    "65": {
+        "name": "Eac_dischrtodayL",
+        "unit": "0.1kWh",
+        "explanation": "AC discharge Energy Today (low)",
+        "divider": 10
+    },
+    "66": {
+        "name": "Eac_dischrtotalH",
+        "unit": "0.1kWh",
+        "explanation": "AC discharge Energy Total (high)",
+        "divider": 10
+    },
+    "67": {
+        "name": "Eac_dischrtotalL",
+        "unit": "0.1kWh",
+        "explanation": "AC discharge Energy Total (low)",
+        "divider": 10
+    },
+    "68": {
+        "name": "Acchrcurr",
+        "unit": "0.1A",
+        "explanation": "AC Charge Battery Current",
+        "divider": 10
+    },
+    "69": {
+        "name": "AC_dischrwattH",
+        "unit": "0.1W",
+        "explanation": "AC discharge watt (high)",
+        "divider": 10
+    },
+    "70": {
+        "name": "AC_dischrwattL",
+        "unit": "0.1W",
+        "explanation": "AC discharge watt (low)",
+        "divider": 10
+    },
+    "71": {
+        "name": "AC_dischrvaH",
+        "unit": "0.1VA",
+        "explanation": "AC discharge va (high)",
+        "divider": 10
+    },
+    "72": {
+        "name": "AC_dischrvaL",
+        "unit": "0.1VA",
+        "explanation": "AC discharge va (low)",
+        "divider": 10
+    },
+    "73": {
+        "name": "Bat_dischrwattH",
+        "unit": "0.1W",
+        "explanation": "Bat discharge watts (high)",
+        "divider": 10
+    },
+    "74": {
+        "name": "Bat_dischrwattL",
+        "unit": "0.1W",
+        "explanation": "Bat discharge watts (low)",
+        "divider": 10
+    },
+    "75": {
+        "name": "Bat_dischrvaH",
+        "unit": "0.1VA",
+        "explanation": "Bat discharge va (high)",
+        "divider": 10
+    },
+    "76": {
+        "name": "Bat_dischrvaL",
+        "unit": "0.1VA",
+        "explanation": "Bat discharge va (low)",
+        "divider": 10
+    },
+    "77": {
+        "name": "Bat_wattH",
+        "unit": "0.1W",
+        "explanation": "Signed int positive discharge, negative battery charge power",
+        "divider": 10
+    },
+    "78": {
+        "name": "Bat_wattL",
+        "unit": "0.1W",
+        "explanation": "Signed int positive discharge, negative battery charge power",
+        "divider": 10
+    },
+    "80": {
+        "name": "Batovercharge",
+        "unit": "",
+        "explanation": "",
+        "divider": 1
+    },
+    "81": {
+        "name": "Mpptfanspeed",
+        "unit": "1%",
+        "explanation": "Fan speed of MPPT Charger",
+        "divider": 1
+    },
+    "82": {
+        "name": "Invfanspeed",
+        "unit": "1%",
+        "explanation": "Fan speed of Inverter",
+        "divider": 1
+    }
+}
